@@ -1,0 +1,51 @@
+/**Sneakers:
+Jordans
+Yeezy
+Nike
+Vans
+Steve Madden
+**/
+
+CREATE TABLE Sneakers (id INTEGER PRIMARY KEY, 
+Name TEXT,
+Size TEXT,
+Price INTEGER,
+Quantity INTEGER);
+
+INSERT INTO Sneakers VALUES
+(1, "Bred 11s", "Size 11", 199, 215);
+INSERT INTO Sneakers VALUES
+(2, "Concord 11s", "Size 5", 199, 225);
+InSERT INTO Sneakers VALUES
+(3, "Cool Greys 11s", "Size 7", 199, 157);
+
+INSERT INTO Sneakers VALUES
+(4, "Clays", "SIze 10", 210, 218);
+INSERT INTO SNeakers VALUES
+(5, "Zebras", "SIze 7", 210, 225);
+INSERT INTO Sneakers VALUES 
+(6, "Peppers", "Size 8", 210, 380);
+
+INSERT INTO Sneakers VALUES
+(7, "Air Force 1s", "Size 6", 99, 995);
+INSERT INTO Sneakers VALUES
+(8, "Bruce Lee's", "Size 9", 149, 215);
+INSERT INTO Sneakers VALUES
+(9, "What The KDs", "Size 8", 149, 445);
+
+INSERT INTO Sneakers VALUES
+(10, "Old Skool Classics","Size 10", 69, 235);
+INSERT INTO Sneakers VALUES
+(11, "Hi Top Vans", "Size 4", 69, 443);
+INSERT INTO Sneakers VALUES 
+(12, "Slip On", "Size 7", 69, 550);
+
+INSERT INTO Sneakers VALUES
+(13, "Kramerr Tan Leather", "Size 12", 110, 12);
+INSERT INTO Sneakers VALUES
+(14, "Jorgee WHite/Green", "Size 8", 110, 200);
+INSERT INTO Sneakers VALUES
+(15, "Jaxson Sand Multi", "Size 11", 110, 615);
+
+SELECT name, price FROM Sneakers ORDER BY price ASC;
+SELECT SUM(quantity) FROM Sneakers;
