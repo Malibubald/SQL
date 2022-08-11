@@ -1,0 +1,3 @@
+SELECT SUM (quantity)
+FROM BIT_DB.JanSales
+WHERE Product = 'iPhone'

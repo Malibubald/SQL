@@ -1,0 +1,2 @@
+SELECT * FROM BIT_DB.JanSales
+WHERE Product = 'iPhone'

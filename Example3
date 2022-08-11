@@ -1,0 +1,6 @@
+SELECT acctnum
+FROM BIT_DB.customers cust
+
+INNER JOIN BIT_DB.FebSales Feb
+ON cust.order_id=FEB.orderid
+LIMIT 250
