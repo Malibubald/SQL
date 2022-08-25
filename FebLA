@@ -16,3 +16,7 @@ WHERE Product = 'iPhone'
 
 SELECT * FROM BIT_DB.JanSales
 WHERE Product = 'iPhone'
+
+SELECT SUM (quantity)
+FROM BIT_DB.JanSales
+WHERE Product = 'iPhone'
