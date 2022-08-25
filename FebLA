@@ -13,3 +13,6 @@ LIMIT 250
 
 SELECT * FROM BIT_DB.JanSales
 WHERE Product = 'iPhone'
+
+SELECT * FROM BIT_DB.JanSales
+WHERE Product = 'iPhone'
